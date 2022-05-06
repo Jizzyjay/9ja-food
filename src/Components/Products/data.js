@@ -1,20 +1,14 @@
-import product1 from '../../images/product1.webp'
 import product2 from '../../images/product2.jpeg'
 import product3 from '../../images/product3.webp'
 import product4 from '../../images/product4.jpeg'
 import product5 from '../../images/product5.webp'
-import product6 from '../../images/product6.png'
+import snacks1 from '../../images/snacks1.jpeg'
+import snacks2 from '../../images/snacks2.jpeg'
+import snacks3 from '../../images/snacks3.jpeg'
 
 
 
 export const productData = [
-    {
-        img: product1,
-        alt: 'Beans and Plantain',
-        desc: 'Beans and Plantain',
-        price: '#3000', 
-        button: 'Add to Cart',
-    },
     {
         img: product2,
         alt: 'Amala',
@@ -42,12 +36,27 @@ export const productData = [
         desc: 'Fried Rice, salad and chicken',
         price: '#4000', 
         button: 'Add to Cart',
+    }
+]
+
+
+export const productDataTwo = [
+    {
+        img: snacks1,
+        alt: 'Nigerian Scotch Egg',
+        price: '#2000', 
+        button: 'Add to Cart',
     },
     {
-        img: product6,
-        alt: 'Abacha(African Salad)',
-        desc: 'African Salad with Fish and Ponmo',
-        price: '#4000', 
+        img: snacks2,
+        alt: 'Chin Chin',
+        price: '#1500', 
+        button: 'Add to Cart',
+    },
+    {
+        img: snacks3,
+        alt: 'Puff Puff',
+        price: '#1000', 
         button: 'Add to Cart',
     }
 ]
