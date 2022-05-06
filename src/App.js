@@ -10,7 +10,7 @@ function App() {
     <Router>
       <GlobalStyle />
       <Hero />
-      <Products heading='Choose your Favorite' daata={productData}/>
+      <Products heading='Choose your Favorite' data={productData}/>
     </Router>
   );
 }

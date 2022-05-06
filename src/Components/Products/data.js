@@ -1,7 +1,9 @@
 import product1 from '../../images/product1.webp'
-import product2 from '../../images/product2.jpeg '
+import product2 from '../../images/product2.jpeg'
 import product3 from '../../images/product3.webp'
-
+import product4 from '../../images/product4.jpeg'
+import product5 from '../../images/product5.webp'
+import product6 from '../../images/product6.png'
 
 
 
@@ -28,24 +30,24 @@ export const productData = [
         button: 'Add to Cart',
     },
     {
-        img: product1,
-        alt: 'un',
-        desc: 'un',
-        price: '#3500', 
+        img: product4,
+        alt: 'Yamarita and Sauce',
+        desc: 'Yamarita and Sauce',
+        price: '#3800', 
         button: 'Add to Cart',
     },
     {
-        img: product1,
-        alt: 'un',
-        desc: 'un',
-        price: '#3500', 
+        img: product5,
+        alt: 'Fried Rice',
+        desc: 'Fried Rice, salad and chicken',
+        price: '#4000', 
         button: 'Add to Cart',
     },
     {
-        img: product1,
-        alt: 'un',
-        desc: 'un',
-        price: '#3500', 
+        img: product6,
+        alt: 'Abacha(African Salad)',
+        desc: 'African Salad with Fish and Ponmo',
+        price: '#4000', 
         button: 'Add to Cart',
-    },
-] 
+    }
+]

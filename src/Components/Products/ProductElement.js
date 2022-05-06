@@ -4,7 +4,7 @@ export const ProductsContainer = styled.div`
     width: 100vw;
     min-height: 100vh;
     padding: 5rem calc((100vw - 1300) / 2);
-    background: #150f0f;
+    background: #141712;
     color: #fff;
 `
 
@@ -25,11 +25,10 @@ export const ProductImg = styled.img`
     height: 300px;
     min-width: 300px;
     max-width: 100%;
-    box-shadow: 8px 8px #fdc500;
+    box-shadow: 8px 8px #71db2a;
     `
 
-
-export const ProductHeading = styled.h1`
+export const ProductsHeading = styled.h1`
     font-size: clamp(2rem, 2.5vw, 3rem);
     text-align: center;
     margin-bottom: 5rem;
@@ -41,3 +40,37 @@ export const ProductTitle = styled.h2`
 `
 
 
+export const ProductInfo = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+`
+
+export const ProductDesc = styled.p`
+    margin-bottom: 1rem;
+`
+
+export const ProductPrice = styled.p`
+    margin-bottom: 1rem;
+    font-size: 2rem;
+`
+
+export const ProductButton = styled.button`
+    font-size: 1rem;
+    padding: 1rem 4rem;
+    border: none;
+    background: #49d62d;
+    color: #fff;
+    transition: .2s ease-out;
+    border-radius: 50px;
+
+    &:hover {
+    background: #49d62d;
+    color: #000;
+    transition: .2s ease-out;
+    cursor: pointer;
+    }
+`
